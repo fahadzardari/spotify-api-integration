@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-inherit: inherit;
+
+  /* font sizes */
+  --font-size-xs: 20px;
+  --font-size-sm: 22px;
+  --font-size-base: 30px;
+  --font-size-lg: 40px;
+
+  /* Colors */
+  --color-gray-100: #262525;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+
+  /* border radiuses */
+  --br-sm: 10px;
+  --br-md: 100px;
+}

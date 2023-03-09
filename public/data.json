@@ -1,0 +1,32 @@
+{
+        "piano":{
+                "artists":"0dgJbQ0bKPyUXco8hEXN7X,7HaSqpaqnOWSaqvezpdhX4,5bIjYVZzgTuFujDI0XW3K1,6ovctVkv7d2fBdilDRYfDW"
+        },
+        "ambient":{
+                "artists":"5nWYvcpaqKtp08cYxjOfFr,4aajGre4nwTLmu8tbZ2vom"
+        },
+        "phonk":{
+                "artists":"2rgcNuLkn8pPBdKZhjZ8Em,09cKncAQn28NqTUORLMwSR,2217gZ1hgFCeaDXFrYrjeL,60vF1fLR6yzLxCQUlnAYYj,0PszchiiynrfCAwjdHdN5r"
+        },
+        "indie":{
+                "artists":"5pSflTWYmlRVthO8CZpRem,56Df9c12QLMaM9Sp7QoyvK,6u29w7XYvobu1ru3NjLg7G,6K1Arugub6xpjLfkJfgCZL,0Ym5QNtGZn5e9Lrs9Y1jWz"
+        },
+        "funk":{
+                "artists":"5x5QpMsxPAaMgm0bxQyKJC,4eMgoZVRBGSKsAZOelb52Q,0C9MlEXA0UUxFHyL8UQxQD"
+        },
+        "electronic_dance ":{
+                "artists":"1VutwUjHPwEELxHkwdhMkz,7n24EOW7ElKwtz5wXkzynQ"
+        },
+        "hip_hop":{
+                "artists":""
+
+        },
+        "synthwave":{
+                "artists":"5bQ1u5yLlL2WZv49doSgRz"
+
+        },
+        "jerseyClub":{
+                "artists":""
+
+        }
+}

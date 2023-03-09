@@ -1,0 +1,237 @@
+.card4Child,
+.mainBodyChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1440px;
+  height: 1248px;
+}
+.card4Child {
+  border-radius: var(--br-sm);
+  background-color: var(--color-gainsboro);
+  width: 360px;
+  height: 360px;
+}
+.antent,
+.monthlyListeners {
+  position: absolute;
+  top: 266px;
+  left: 57px;
+  font-weight: 500;
+}
+.antent {
+  top: 212px;
+  left: 129px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 102px;
+  height: 31px;
+}
+.image4Icon {
+  position: absolute;
+  top: 34px;
+  left: 100px;
+  border-radius: var(--br-md);
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.card4,
+.image3Icon {
+  position: absolute;
+  top: 659px;
+  left: 817px;
+  width: 360px;
+  height: 360px;
+}
+.image3Icon {
+  top: 34px;
+  left: 94px;
+  border-radius: var(--br-md);
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+.mathbonus,
+.monthlyListeners1 {
+  position: absolute;
+  top: 214px;
+  left: 94px;
+  font-weight: 500;
+  display: inline-block;
+  width: 171px;
+  height: 31px;
+}
+.monthlyListeners1 {
+  top: 266px;
+  left: 50px;
+  font-size: var(--font-size-xs);
+  width: 260px;
+  height: 22px;
+}
+.card3 {
+  top: 659px;
+  left: 263px;
+  width: 360px;
+  height: 360px;
+  font-size: var(--font-size-base);
+}
+.card2,
+.card3,
+.tilekid {
+  position: absolute;
+}
+.tilekid {
+  top: 214px;
+  left: 126px;
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  display: inline-block;
+  width: 108px;
+  height: 31px;
+}
+.card2 {
+  top: 227px;
+  left: 810px;
+  width: 360px;
+  height: 360px;
+}
+.monthlyListeners3,
+.neheart {
+  position: absolute;
+  top: 214px;
+  left: 105px;
+  font-weight: 500;
+  display: inline-block;
+  width: 138px;
+  height: 31px;
+}
+.monthlyListeners3 {
+  top: 266px;
+  left: 38px;
+  font-size: var(--font-size-xs);
+  width: 272px;
+  height: 22px;
+}
+.card1,
+.heading {
+  position: absolute;
+  top: 227px;
+  left: 256px;
+  width: 360px;
+  height: 360px;
+  font-size: var(--font-size-base);
+}
+.heading {
+  top: 83px;
+  left: 464px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  display: inline-block;
+  width: 511px;
+  height: 54px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 62.5%;
+  width: 21.13%;
+  top: 18.75%;
+  right: 78.87%;
+  bottom: 18.75%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 48px;
+  font-weight: 500;
+}
+.backButton {
+  position: absolute;
+  height: 3.85%;
+  width: 9.86%;
+  top: 5.69%;
+  right: 86.53%;
+  bottom: 90.46%;
+  left: 3.61%;
+  cursor: pointer;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.bg,
+.mainBody {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 1440px;
+  height: 1248px;
+}
+.bg {
+  top: 0;
+  background-color: var(--color-black);
+  height: 100px;
+}
+.navLogoIcon {
+  position: absolute;
+  top: 21px;
+  left: 43px;
+  width: 180px;
+  height: 55px;
+  object-fit: cover;
+}
+.contact {
+  top: 0;
+  left: 147px;
+  font-weight: 600;
+  display: inline-block;
+  width: 136px;
+}
+.contact,
+.header,
+.home,
+.navMenu {
+  position: absolute;
+  height: 33px;
+}
+.home {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+  width: 102px;
+  cursor: pointer;
+}
+.header,
+.navMenu {
+  top: 32px;
+  left: 1033px;
+  width: 283px;
+}
+.header {
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 100px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.artistPage {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1348px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .artistPage {
+    width: 100%;
+  }
+}
