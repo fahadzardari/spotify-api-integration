@@ -74,18 +74,29 @@ const HomePage = () => {
             </button>
             <div className={styles.funk}>3. Phonk</div>
           </div>
-          <div className={styles.listItem2}>
+          {/* <div className={styles.listItem2}>
           <button className={styles.button} onClick={() => getAllArtists("piano")}>
               <div className={styles.buttonChild} />
               <div className={styles.viewDetail}>View Detail</div>
             </button>
-            <div className={styles.funk}>2. Piano</div>
-          </div>
-          <div className={styles.listItem1}>
+            <div className={styles.funk}>Piano</div>
+          </div> */}
+            
+            <div className={styles.listItem2}>
             <div className={styles.ambient}>
               <ol className={styles.ambient1}>Ambient</ol>
             </div>
             <button className={styles.button} onClick={() => getAllArtists("ambient")}>
+              <div className={styles.buttonChild} />
+              <div className={styles.viewDetail}>View Detail</div>
+            </button>
+          </div>
+       
+          <div className={styles.listItem1}>
+            <div className={styles.ambient}>
+              <ol className={styles.ambient1}>Ambient</ol>
+            </div>
+            <button className={styles.button} onClick={() => getAllArtists("piano")}>
               <div className={styles.buttonChild} />
               <div className={styles.viewDetail}>View Detail</div>
             </button>
@@ -104,6 +115,8 @@ const HomePage = () => {
             alt=""
             src="../searchbutton.svg"
           />
+
+          
         </div>
       </main>
       <header className={styles.header}>
@@ -113,7 +126,7 @@ const HomePage = () => {
           
           <div className={styles.contact}>Contact</div>
           <div className={styles.home}>Home</div>
-          <Login />
+          {/* <Login /> */}
 
         </div>
       </header>

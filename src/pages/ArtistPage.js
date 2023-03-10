@@ -18,6 +18,11 @@ const ArtistPage = ({ar}) => {
   const loc = useLocation()
   
   const fetchData = async ()=>{
+
+  }
+
+  
+  useEffect(async ()=>{
     const { data } = await axios.get(`https://api.spotify.com/v1/artists?ids=${loc.state.artists}`, {
       headers: {
         Authorization: `Bearer ${window.localStorage.getItem("token")}`,
@@ -26,11 +31,6 @@ const ArtistPage = ({ar}) => {
 
     console.log(data.artists)
     setArtists(data.artists)
-  }
-
-  
-  useEffect(()=>{
-    fetchData();
   },[])
 
 
@@ -40,38 +40,29 @@ const ArtistPage = ({ar}) => {
     
       <div className={styles.mainBody}>
 
-        {
-          // artists.map((i) => {
-            
-          //     return    <div className={styles.card4}>
-          //     <div className={styles.card4Child} />
-          //     <div className={styles.monthlyListeners}>
-          //       monthly listeners
-          //       <div></div>
-          //     </div>
-          //     <div className={styles.antent}>Antent</div>
-          //     <img
-          //       className={styles.image4Icon}
-          //       alt="artist image"
-          //       src="../image-4@2x.png"
-          //     />
-          //   </div>
-          // })
-          artists.map((i) => {
-                  return <div>5</div>
-          })
-        }
 
 
         <div className={styles.mainBodyChild} />
-        <div className={styles.card4}>
-          <div className={styles.card4Child} />
-          <div className={styles.monthlyListeners}>
-            1,037,298 monthly listeners
-          </div>
-          <div className={styles.antent}>Antent</div>
-          <img className={styles.image4Icon} alt="" src="../image-4@2x.png" />
-        </div>
+        {
+          artists.map((i) => {
+            
+              return    <div className={styles.card4}>
+              <div className={styles.card4Child} />
+              <div className={styles.monthlyListeners}>
+                  {i.followers.total}  monthly listeners
+                <div></div>
+              </div>
+              <div className={styles.antent}>{i.name}</div>
+              <img
+                className={i.images[1].url}
+                alt="artist image"
+                src="../image-4@2x.png"
+              />
+            </div>
+          })
+
+        }
+
         <div className={styles.card3}>
           <div className={styles.card4Child} />
           <img className={styles.image3Icon} alt="" src="../image-3@2x.png" />
@@ -112,6 +103,7 @@ const ArtistPage = ({ar}) => {
           <div className={styles.contact}>Contact</div>
           <div className={styles.home} onClick={onHomeTextClick}>
             Home
+
           </div>
         </div>
       </div>
